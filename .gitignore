@@ -6,13 +6,14 @@ env/
 __pycache__/
 *.pyc
 .DS_Store
-reference
 .venv_smolvlm
 benchmarks
 scienceqa_images
-
+document
+.hf_cache
 # 忽略庞大的模型权重（绝对不能传！）
 SmolVLM2_Weights/
 
 # 如果你的 jsonl 评测集超过了 100MB，也请把它加进来忽略掉
-# real_scienceqa_eval.jsonl
+real_scienceqa_eval.jsonl
+quant_eval_report.json
