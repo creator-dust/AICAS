@@ -1,0 +1,3239 @@
+{
+  "model_dir": "D:\\Project_Python\\2026AICAS\\SmolVLM2_Weights",
+  "dataset": "D:\\Project_Python\\2026AICAS\\real_scienceqa_eval.jsonl",
+  "num_samples": 200,
+  "strategies": [
+    "apot",
+    "hybrid"
+  ],
+  "results": [
+    {
+      "strategy": "apot",
+      "num_samples": 200,
+      "num_correct": 73,
+      "accuracy": 0.365,
+      "elapsed_sec": 291.9808578491211,
+      "quantized_layers": {
+        "apot": 297,
+        "bfp": 0,
+        "skip": 1
+      },
+      "details": [
+        {
+          "id": "scienceqa_0",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_0.jpg",
+          "question": "Which of these states is farthest north?",
+          "answer": "West Virginia",
+          "prediction": " The answer is A. West Virginia",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_1",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_1.jpg",
+          "question": "Identify the question that Tom and Justin's experiment can best answer.",
+          "answer": "Do ping pong balls travel farther when launched from a 30° angle compared to a 45° angle?",
+          "prediction": " B",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_2",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_2.jpg",
+          "question": "Identify the question that Kathleen and Bryant's experiment can best answer.",
+          "answer": "Does Kathleen's snowboard slide down a hill in less time when it has a layer of wax or when it does not have a layer of wax?",
+          "prediction": " Option A is correct. The question asks if Kathleen's snowboard can slide down a hill in less time when it has a layer of wax or when it does",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_3",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_3.jpg",
+          "question": "What is the probability that a goat produced by this cross will be homozygous dominant for the myotonia congenita gene?",
+          "answer": "1/4",
+          "prediction": " Based on the image provided, the probability that a goat produced by this cross will be homozygous dominant for the myotonia congenita gene is 1/",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_4",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_4.jpg",
+          "question": "Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?",
+          "answer": "sample B",
+          "prediction": " Sample A has a higher temperature.\n\nSample A has a higher mass of each particle, which is 28 u, compared to Sample B, which",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_5",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_5.jpg",
+          "question": "Which of these organisms contains matter that was once part of the phytoplankton?",
+          "answer": "black rockfish",
+          "prediction": " Answer: B",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_6",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_6.jpg",
+          "question": "Which solution has a higher concentration of blue particles?",
+          "answer": "neither; their concentrations are the same",
+          "prediction": " The correct answer is A. neither; their concentrations are the same.\n\nThe image shows two beakers with blue particles. The left beaker has a",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_7",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_7.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnetic force is stronger in Pair 1.",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_8",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_8.jpg",
+          "question": "What does pollen help a plant do?",
+          "answer": "make seeds",
+          "prediction": " Answer: A. make seeds.",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_9",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_9.jpg",
+          "question": "Which property matches this object?",
+          "answer": "flexible",
+          "prediction": " A. flexible",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_10",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_10.jpg",
+          "question": "What is the capital of South Carolina?",
+          "answer": "Columbia",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_11",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_11.jpg",
+          "question": "What is the probability that a koi fish produced by this cross will have black eyes?",
+          "answer": "0/4",
+          "prediction": " C. 4/4",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_12",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_12.jpg",
+          "question": "Which property do these three objects have in common?",
+          "answer": "soft",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_13",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_13.jpg",
+          "question": "What is the capital of Colorado?",
+          "answer": "Denver",
+          "prediction": " The answer is A. Baton Rouge",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_14",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_14.jpg",
+          "question": "Select the fish below.",
+          "answer": "cardinalfish",
+          "prediction": " I'm sorry, I can't find any image that matches the description.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_15",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_15.jpg",
+          "question": "Complete the statement.\nTungsten carbide is ().",
+          "answer": "a compound",
+          "prediction": " A. an elementary substance",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_16",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_16.jpg",
+          "question": "What can Maureen and Kendrick trade to each get what they want?",
+          "answer": "Maureen can trade her tomatoes for Kendrick's broccoli.",
+          "prediction": " The answer is A.\n\nMaureen wants to trade her broccoli for Kendrick's tomatoes.\n\nHere is the reasoning behind this answer:\n",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_17",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_17.jpg",
+          "question": "What is the expected ratio of offspring with a hairy body to offspring with a hairless body? Choose the most likely ratio.",
+          "answer": "4:0",
+          "prediction": " Based on the image, the expected ratio of offspring with a hairy body to those with a hairless body is 3:1.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_18",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_18.jpg",
+          "question": "Identify the question that Gabe's experiment can best answer.",
+          "answer": "Do more bacteria grow in liquid with cinnamon than in liquid without cinnamon?",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_19",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_19.jpg",
+          "question": "Is a scarf a solid or a liquid?",
+          "answer": "a solid",
+          "prediction": " A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_20",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_20.jpg",
+          "question": "Which animal is also adapted for climbing trees?",
+          "answer": "red-handed tamarin",
+          "prediction": " A. takin",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_21",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_21.jpg",
+          "question": "Which of the following was a dependent variable in this experiment?",
+          "answer": "the number of rusted steel squares",
+          "prediction": " Answer:A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_22",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_22.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is smaller in Pair 2.",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_23",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_23.jpg",
+          "question": "Is chalk a solid, a liquid, or a gas?",
+          "answer": "a solid",
+          "prediction": " (A)",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_24",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_24.jpg",
+          "question": "Which solution has a higher concentration of yellow particles?",
+          "answer": "Solution B",
+          "prediction": " The correct answer is A.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_25",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_25.jpg",
+          "question": "Which animal's feet are also adapted for swimming?",
+          "answer": "blue-footed booby",
+          "prediction": " Options: A. blue-footed booby\nB. tokay gecko",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_26",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_26.jpg",
+          "question": "Which solution has a higher concentration of green particles?",
+          "answer": "Solution A",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_27",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_27.jpg",
+          "question": "What is the capital of Washington?",
+          "answer": "Olympia",
+          "prediction": " D",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_28",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_28.jpg",
+          "question": "What is the capital of New York?",
+          "answer": "Albany",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_29",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_29.jpg",
+          "question": "Which cones make pollen?",
+          "answer": "male cones",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_30",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_30.jpg",
+          "question": "What can Debbie and Madelyn trade to each get what they want?",
+          "answer": "Debbie can trade her tomatoes for Madelyn's broccoli.",
+          "prediction": " For each option, we need to look at the image provided and see what each can trade for.\n\nA. For the image, the answer is A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_31",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_31.jpg",
+          "question": "Complete the statement.\nPalladium is ().",
+          "answer": "an elementary substance",
+          "prediction": " A. a compound",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_32",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_32.jpg",
+          "question": "What is the probability that a Nile tilapia fish produced by this cross will have a greenish-brown body?",
+          "answer": "4/4",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_33",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_33.jpg",
+          "question": "In this food chain, the Mojave yucca is a producer. Why?",
+          "answer": "It makes its own food.",
+          "prediction": " A. It eats another living thing.\nB. It makes its own food",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_34",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_34.jpg",
+          "question": "Which of these states is farthest east?",
+          "answer": "Arkansas",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_35",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_35.jpg",
+          "question": "Will these magnets attract or repel each other?",
+          "answer": "attract",
+          "prediction": " A. repel\n\nThese magnets will attract each other.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_36",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_36.jpg",
+          "question": "Which country is highlighted?",
+          "answer": "Haiti",
+          "prediction": " C. Haiti",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_37",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_37.jpg",
+          "question": "What is the name of the colony shown?",
+          "answer": "Virginia",
+          "prediction": " D",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_38",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_38.jpg",
+          "question": "Which of the following could Cody's test show?",
+          "answer": "if the weather station would work when the temperature was 50°C",
+          "prediction": " Based on the image, the test show could be A. how well the weather station would work when it was windy.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_39",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_39.jpg",
+          "question": "Select the chemical formula for this molecule.",
+          "answer": "HF",
+          "prediction": " D. HF2",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_40",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_40.jpg",
+          "question": "During this time, thermal energy was transferred from () to ().",
+          "answer": "each aquarium . . . the surroundings",
+          "prediction": " The answer is A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_41",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_41.jpg",
+          "question": "What is the capital of Texas?",
+          "answer": "Austin",
+          "prediction": " Answer: D",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_42",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_42.jpg",
+          "question": "Which of these cities is marked on the map?",
+          "answer": "Washington, D.C.",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_43",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_43.jpg",
+          "question": "Select the organism in the same genus as the crystal jellyfish.",
+          "answer": "Aequorea victoria",
+          "prediction": " A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_44",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_44.jpg",
+          "question": "Which solution has a higher concentration of green particles?",
+          "answer": "Solution A",
+          "prediction": " Question: Which solution has a higher concentration of green particles?",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_45",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_45.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnetic force is stronger in Pair 1.",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_46",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_46.jpg",
+          "question": "Which property do these four objects have in common?",
+          "answer": "sweet",
+          "prediction": " The answer is A. translucent",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_47",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_47.jpg",
+          "question": "Which type of force from the girl opens the window?",
+          "answer": "push",
+          "prediction": " A. A pull force is needed to open the window.\nB. A push force is needed to open the window.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_48",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_48.jpg",
+          "question": "Which statement describes the Tallgrass Prairie National Preserve ecosystem?",
+          "answer": "It has a medium amount of rain.",
+          "prediction": " A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_49",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_49.jpg",
+          "question": "What can Akira and Brooke trade to each get what they want?",
+          "answer": "Akira can trade her tomatoes for Brooke's broccoli.",
+          "prediction": " A. Brooke can trade her broccoli for Akira's oranges.\nB. Brooke can trade her almonds for Akira's tomatoes.\nC.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_50",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_50.jpg",
+          "question": "Identify the question that Lily's experiment can best answer.",
+          "answer": "Do the insides of white boxes get hotter than the insides of black boxes when the boxes are left in the sun?",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_51",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_51.jpg",
+          "question": "What is this tarantula's scientific name?",
+          "answer": "Aphonopelma johnnycashi",
+          "prediction": " Option A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_52",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_52.jpg",
+          "question": "What is the capital of Washington?",
+          "answer": "Olympia",
+          "prediction": " D\nAnswer: D\nAnswer: D\nAnswer: D\nAnswer: D\nAnswer: D\nAnswer: D\nAnswer: D\nAnswer:",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_53",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_53.jpg",
+          "question": "Which bird's beak is also adapted to get nectar out of long flowers?",
+          "answer": "violet sabrewing",
+          "prediction": " A. ground hornbill",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_54",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_54.jpg",
+          "question": "Which of these states is farthest north?",
+          "answer": "Nebraska",
+          "prediction": " Answer: C",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_55",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_55.jpg",
+          "question": "What is the expected ratio of offspring with brown eyes to offspring with red eyes? Choose the most likely ratio.",
+          "answer": "4:0",
+          "prediction": " The image shows that the ratio of offspring with brown eyes to those with red eyes is 3:1. This is evident from the image where the number of",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_56",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_56.jpg",
+          "question": "What is the capital of Washington?",
+          "answer": "Olympia",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_57",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_57.jpg",
+          "question": "Which of these states is farthest east?",
+          "answer": "New York",
+          "prediction": " Answer: D",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_58",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_58.jpg",
+          "question": "What is the capital of Vermont?",
+          "answer": "Montpelier",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_59",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_59.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is smaller in Pair 1.",
+          "prediction": " The correct statement is A. The magnitude of the magnetic force is smaller in Pair 1.\n\nThe correct answer is A. The magnitude of the magnetic",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_60",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_60.jpg",
+          "question": "Which of the following fossils is older? Select the more likely answer.",
+          "answer": "dinosaur footprint",
+          "prediction": " To determine which of the given fossils is older, we need to compare the relative ages of the fossils based on the following criteria:\n- The age of the",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_61",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_61.jpg",
+          "question": "Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?",
+          "answer": "sample A",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_62",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_62.jpg",
+          "question": "Which country is highlighted?",
+          "answer": "Jamaica",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_63",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_63.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is greater in Pair 2.",
+          "prediction": " Answer the question based on the image.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_64",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_64.jpg",
+          "question": "Which better describes the Shenandoah National Park ecosystem?",
+          "answer": "It has warm, wet summers. It also has only a few types of trees.",
+          "prediction": " i would choose option A.\nThe image represents the Shenandoah National Park ecosystem. The park has warm, wet summers, with only a few types of",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_65",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_65.jpg",
+          "question": "Which of the following could Emilia's test show?",
+          "answer": "whether she added enough nutrients to help the bacteria produce 20% more insulin",
+          "prediction": " A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_66",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_66.jpg",
+          "question": "What did the scientists discover?",
+          "answer": "a sea turtle with a glowing shell",
+          "prediction": " The scientists discovered a sea turtle that can fly.",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_67",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_67.jpg",
+          "question": "Which continent is highlighted?",
+          "answer": "North America",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_68",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_68.jpg",
+          "question": "Which ocean is highlighted?",
+          "answer": "the Arctic Ocean",
+          "prediction": " A. the Atlantic Ocean",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_69",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_69.jpg",
+          "question": "Is a ring a solid or a liquid?",
+          "answer": "a solid",
+          "prediction": " A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_70",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_70.jpg",
+          "question": "Which material is this screw driver made of?",
+          "answer": "plastic",
+          "prediction": " The answer is B.",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_71",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_71.jpg",
+          "question": "Which part of the collard plant do we usually eat?",
+          "answer": "the leaves",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_72",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_72.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is greater in Pair 2.",
+          "prediction": " A. The magnitude of the magnetic force is greater in Pair 1.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_73",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_73.jpg",
+          "question": "Which country is highlighted?",
+          "answer": "Palau",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_74",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_74.jpg",
+          "question": "What is the capital of Kentucky?",
+          "answer": "Frankfort",
+          "prediction": " Options: A, B, C, D\nAnswer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_75",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_75.jpg",
+          "question": "Which property matches this object?",
+          "answer": "colorful",
+          "prediction": " To determine which property matches the kite, we need to look at the image of the kite. The kite is shown with a red tail and a yellow body.",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_76",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_76.jpg",
+          "question": "Which country is highlighted?",
+          "answer": "Cuba",
+          "prediction": "=C",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_77",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_77.jpg",
+          "question": "What is the probability that a Channel catfish produced by this cross will have a white body?",
+          "answer": "1/4",
+          "prediction": " Answer: D",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_78",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_78.jpg",
+          "question": "What is the capital of Pennsylvania?",
+          "answer": "Harrisburg",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_79",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_79.jpg",
+          "question": "Which property matches this object?",
+          "answer": "shiny",
+          "prediction": " A.\n\nThe image shows a silver ring, which is a common material used in jewelry making. Silver is a silvery-gray metal that is known for",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_80",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_80.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is smaller in Pair 1.",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_81",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_81.jpg",
+          "question": "Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?",
+          "answer": "sample A",
+          "prediction": " Sample A has the higher temperature.\n\nThe average kinetic energy of the particles in Sample A is 1,700 m^2/s,",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_82",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_82.jpg",
+          "question": "In this food chain, the macroalgae is a producer. Why?",
+          "answer": "It makes its own food.",
+          "prediction": " A.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_83",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_83.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is smaller in Pair 1.",
+          "prediction": " Answer: A. The magnitude of the magnetic force is the same in both pairs.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_84",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_84.jpg",
+          "question": "What is the capital of Massachusetts?",
+          "answer": "Boston",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_85",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_85.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is the same in both pairs.",
+          "prediction": " A\n\nThe magnitude of the magnetic force is greater in Pair 2.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_86",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_86.jpg",
+          "question": "Select the organism in the same genus as the Victoria crowned pigeon.",
+          "answer": "Goura scheepmakeri",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_87",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_87.jpg",
+          "question": "Which material is this belt made of?",
+          "answer": "leather",
+          "prediction": " B",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_88",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_88.jpg",
+          "question": "Select the organism in the same species as the North American beaver.",
+          "answer": "Castor canadensis",
+          "prediction": " The correct answer is C. Alouatta caraya.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_89",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_89.jpg",
+          "question": "Is corundum a mineral or a rock?",
+          "answer": "mineral",
+          "prediction": " A mineral is a mineral, not a rock.",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_90",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_90.jpg",
+          "question": "What is the capital of Iowa?",
+          "answer": "Des Moines",
+          "prediction": " The capital of Iowa is B. Cedar Rapids.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_91",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_91.jpg",
+          "question": "Does this passage describe the weather or the climate?",
+          "answer": "climate",
+          "prediction": " A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_92",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_92.jpg",
+          "question": "What is the capital of Virginia?",
+          "answer": "Richmond",
+          "prediction": " Answer: B",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_93",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_93.jpg",
+          "question": "Which property do these two objects have in common?",
+          "answer": "yellow",
+          "prediction": " A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_94",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_94.jpg",
+          "question": "What is the capital of Idaho?",
+          "answer": "Boise",
+          "prediction": " Answer: D",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_95",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_95.jpg",
+          "question": "Which property do these two objects have in common?",
+          "answer": "hard",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_96",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_96.jpg",
+          "question": "Which ocean is highlighted?",
+          "answer": "the Pacific Ocean",
+          "prediction": " Options: A. the Atlantic Ocean; B. the Pacific Ocean; C. the Southern Ocean; D. the Indian Ocean",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_97",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_97.jpg",
+          "question": "Which of the following was an independent variable in this experiment?",
+          "answer": "the type of food used in the bird feeders",
+          "prediction": " The experiment used the number of woodpeckers that visited the bird feeders as an independent variable.\nAnswer: A\nA. the number of woodpeckers that visited",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_98",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_98.jpg",
+          "question": "Which property matches this object?",
+          "answer": "blue",
+          "prediction": " A.\n\nThe image shows a water slide, which is a type of water slide. The water slide is a popular recreational activity that involves riding down a",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_99",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_99.jpg",
+          "question": "Select the bird below.",
+          "answer": "ostrich",
+          "prediction": " A.",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_100",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_100.jpg",
+          "question": "Will these magnets attract or repel each other?",
+          "answer": "attract",
+          "prediction": " A. repel\n\nThe magnets in the image are shown to be attracted to each other. The magnets in the image are attracted to each other because they have",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_101",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_101.jpg",
+          "question": "Which of the following could Bryan's test show?",
+          "answer": "whether the filter was clogged",
+          "prediction": " The answer is C. the amount of bacteria in the water before it was filtered.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_102",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_102.jpg",
+          "question": "Which better describes the Tibetan Plateau ecosystem?",
+          "answer": "It has long, cold winters. It also has mostly small plants.",
+          "prediction": " The answer is A. It has warm summers.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_103",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_103.jpg",
+          "question": "Will these magnets attract or repel each other?",
+          "answer": "attract",
+          "prediction": " To determine which magnets will attract or repel each other, we need to consider the magnetic properties of the magnets. Magnets are typically classified into two categories: fer",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_104",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_104.jpg",
+          "question": "What is the capital of New Hampshire?",
+          "answer": "Concord",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_105",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_105.jpg",
+          "question": "Which i in row C?",
+          "answer": "the school",
+          "prediction": " A. the diner",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_106",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_106.jpg",
+          "question": "What can happen to the spores after they are released?",
+          "answer": "They can grow into an adult moss plant.",
+          "prediction": " The correct answer is A. They can fuse and form a fertilized egg.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_107",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_107.jpg",
+          "question": "What is the capital of Hawaii?",
+          "answer": "Honolulu",
+          "prediction": " The answer is C. Honolulu",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_108",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_108.jpg",
+          "question": "Which of the following could Carter's test show?",
+          "answer": "if the weather station would work when the temperature was 50°C",
+          "prediction": " Answer: A\nA is the correct answer.\nA is the only option that could be chosen based on the image.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_109",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_109.jpg",
+          "question": "What is the name of the colony shown?",
+          "answer": "New Jersey",
+          "prediction": " The correct answer is A. Maryland.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_110",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_110.jpg",
+          "question": "Is the following statement about our solar system true or false?\nThe largest planet is made mainly of ice.",
+          "answer": "false",
+          "prediction": " A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_111",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_111.jpg",
+          "question": "Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?",
+          "answer": "sample A",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_112",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_112.jpg",
+          "question": "Select the organism in the same species as the North American beaver.",
+          "answer": "Castor canadensis",
+          "prediction": " The correct organism is A. The North American beaver is a species of beaver that is found in North America.",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_113",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_113.jpg",
+          "question": "Select the organism in the same genus as the western crowned pigeon.",
+          "answer": "Goura cristata",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_114",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_114.jpg",
+          "question": "What can Percy and Cole trade to each get what they want?",
+          "answer": "Percy can trade his tomatoes for Cole's broccoli.",
+          "prediction": " A. Percy can trade his tomatoes for Cole's broccoli.\nB. Cole can trade his broccoli for Percy's oranges.\nC. Cole can trade his",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_115",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_115.jpg",
+          "question": "Which country is highlighted?",
+          "answer": "Fiji",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_116",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_116.jpg",
+          "question": "Which of these states is farthest west?",
+          "answer": "Kentucky",
+          "prediction": " Answer: C",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_117",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_117.jpg",
+          "question": "Look at the models of molecules below. Select the elementary substance.",
+          "answer": "ozone",
+          "prediction": " The correct answer is B.\n\nThe image shows three models of molecules. The left model is labeled as \"carbon tetrachloride\" and is shown with",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_118",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_118.jpg",
+          "question": "Select the amphibian below.",
+          "answer": "African bullfrog",
+          "prediction": " The amphibian is A. African bullfrog",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_119",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_119.jpg",
+          "question": "Which ocean is highlighted?",
+          "answer": "the Pacific Ocean",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_120",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_120.jpg",
+          "question": "Which specific humidity level was measured within the outlined area shown?",
+          "answer": "22 grams of water vapor per kilogram of air",
+          "prediction": " Options: A, B, C\nAnswer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_121",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_121.jpg",
+          "question": "Will these magnets attract or repel each other?",
+          "answer": "repel",
+          "prediction": " A. repel",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_122",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_122.jpg",
+          "question": "Which bird's beak is also adapted to get nectar out of long flowers?",
+          "answer": "green violetear",
+          "prediction": " A. Common Nighthawk",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_123",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_123.jpg",
+          "question": "Is the following statement about our solar system true or false?\nThe four largest planets are made mainly of gas or ice.",
+          "answer": "true",
+          "prediction": " A. true",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_124",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_124.jpg",
+          "question": "Which is this organism's scientific name?",
+          "answer": "Carassius auratus",
+          "prediction": " The scientific name for this organism is Carassius auratus, which is a type of carp. Carassius auratus is a species of carp found in",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_125",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_125.jpg",
+          "question": "Which i in row A?",
+          "answer": "the police department",
+          "prediction": " Based on the image, the answer is A. the theater.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_126",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_126.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is smaller in Pair 2.",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_127",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_127.jpg",
+          "question": "Select the organism in the same genus as the small-mouth salamander.",
+          "answer": "Ambystoma texanum",
+          "prediction": " Options: A, B, C",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_128",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_128.jpg",
+          "question": "What is the name of the colony shown?",
+          "answer": "South Carolina",
+          "prediction": " D",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_129",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_129.jpg",
+          "question": "What is the capital of Maryland?",
+          "answer": "Annapolis",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_130",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_130.jpg",
+          "question": "What can Kayla and Janet trade to each get what they want?",
+          "answer": "Kayla can trade her tomatoes for Janet's broccoli.",
+          "prediction": " A. Kayla can trade her tomatoes for Janet's broccoli.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_131",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_131.jpg",
+          "question": "Which of these states is farthest east?",
+          "answer": "Maine",
+          "prediction": " D",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_132",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_132.jpg",
+          "question": "Which property do these four objects have in common?",
+          "answer": "fuzzy",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_133",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_133.jpg",
+          "question": "Is the following statement about our solar system true or false?\nThe four largest planets are made mainly of gas or ice.",
+          "answer": "true",
+          "prediction": " A. false",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_134",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_134.jpg",
+          "question": "Which state is highlighted?",
+          "answer": "Nevada",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_135",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_135.jpg",
+          "question": "Which of the following could Dustin's test show?",
+          "answer": "how steady a parachute with a 1 m vent was at 200 km per hour",
+          "prediction": " C",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_136",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_136.jpg",
+          "question": "Which of these states is farthest south?",
+          "answer": "Ohio",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_137",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_137.jpg",
+          "question": "Which air temperature was measured within the outlined area shown?",
+          "answer": "-17°C",
+          "prediction": " The answer is A. 3°C",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_138",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_138.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is smaller in Pair 2.",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_139",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_139.jpg",
+          "question": "What can Abdul and Elise trade to each get what they want?",
+          "answer": "Abdul can trade his tomatoes for Elise's broccoli.",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_140",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_140.jpg",
+          "question": "What is the capital of Rhode Island?",
+          "answer": "Providence",
+          "prediction": " The capital of Rhode Island is Providence.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_141",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_141.jpg",
+          "question": "Which of these continents does the prime meridian intersect?",
+          "answer": "Africa",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_142",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_142.jpg",
+          "question": "What is the expected ratio of offspring with green body feathers to offspring with blue body feathers? Choose the most likely ratio.",
+          "answer": "2:2",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_143",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_143.jpg",
+          "question": "Which continent is highlighted?",
+          "answer": "South America",
+          "prediction": " The answer is C",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_144",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_144.jpg",
+          "question": "Will these magnets attract or repel each other?",
+          "answer": "attract",
+          "prediction": " A. attract",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_145",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_145.jpg",
+          "question": "Which of these cities is marked on the map?",
+          "answer": "Portland",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_146",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_146.jpg",
+          "question": "Will these magnets attract or repel each other?",
+          "answer": "attract",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_147",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_147.jpg",
+          "question": "Which solution has a higher concentration of blue particles?",
+          "answer": "Solution B",
+          "prediction": " The answer is A\n\nSolution A has a higher concentration of blue particles because it has a higher volume of blue particles compared to Solution B.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_148",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_148.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is greater in Pair 1.",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_149",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_149.jpg",
+          "question": "Which continent is highlighted?",
+          "answer": "Asia",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_150",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_150.jpg",
+          "question": "Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?",
+          "answer": "sample B",
+          "prediction": " sample A has a higher temperature.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_151",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_151.jpg",
+          "question": "Based on the event chain, which event leads directly to the defeat of the loon's team?",
+          "answer": "The Winter Wind joins the hawk's team.",
+          "prediction": " A. The Winter Wind joins the hawk's team.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_152",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_152.jpg",
+          "question": "What can Gavin and Nolan trade to each get what they want?",
+          "answer": "Gavin can trade his tomatoes for Nolan's broccoli.",
+          "prediction": " A. Nolan can trade his broccoli for Gavin's oranges.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_153",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_153.jpg",
+          "question": "Which animal is also adapted to be camouflaged among dead leaves?",
+          "answer": "fantastic leaf-tailed gecko",
+          "prediction": " B",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_154",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_154.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is the same in both pairs.",
+          "prediction": " Answer: A. The magnitude of the magnetic force is smaller in Pair 2.\n\nExplanation:\n\n- Pair 1 has a larger magnitude of",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_155",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_155.jpg",
+          "question": "Which of the following organisms is the secondary consumer in this food web?",
+          "answer": "plainfin midshipman",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_156",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_156.jpg",
+          "question": "Which i in column 1?",
+          "answer": "the fire department",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_157",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_157.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnetic force is stronger in Pair 1.",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_158",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_158.jpg",
+          "question": "Which animal's feet are also adapted for sticking to smooth surfaces?",
+          "answer": "Madagascar day gecko",
+          "prediction": " The answer is A. meerkat.\n\nThe meerkat is an animal that is adapted for sticking to smooth surfaces. It has a long tail",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_159",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_159.jpg",
+          "question": "Complete the text to describe the diagram.\nSolute particles moved in both directions across the permeable membrane. But more solute particles moved across the membrane (). When there was an equal concentration on both sides, the particles reached equilibrium.",
+          "answer": "to the left than to the right",
+          "prediction": " A. to the left than to the right\nB. to the left than to the right",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_160",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_160.jpg",
+          "question": "Complete the text to describe the diagram.\nSolute particles moved in both directions across the permeable membrane. But more solute particles moved across the membrane (). When there was an equal concentration on both sides, the particles reached equilibrium.",
+          "answer": "to the left than to the right",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_161",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_161.jpg",
+          "question": "In this food chain, the wild oat is a producer. Why?",
+          "answer": "It makes its own food.",
+          "prediction": " B. It makes its own food.\nIn the food chain, the wild oat is a producer because it makes its own food through photosynthesis. It does not",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_162",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_162.jpg",
+          "question": "What is the capital of Georgia?",
+          "answer": "Atlanta",
+          "prediction": " D",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_163",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_163.jpg",
+          "question": "Which better describes the Bering Land Bridge National Preserve ecosystem?",
+          "answer": "It has mostly small plants. It also has short, cold summers.",
+          "prediction": " The answer is A.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_164",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_164.jpg",
+          "question": "What is the capital of Mississippi?",
+          "answer": "Jackson",
+          "prediction": " Answer: C",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_165",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_165.jpg",
+          "question": "What is the probability that a horse produced by this cross will be heterozygous for the coat color gene?",
+          "answer": "0/4",
+          "prediction": " Answer: D",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_166",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_166.jpg",
+          "question": "Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?",
+          "answer": "sample A",
+          "prediction": " The correct answer is A. Sample A has a higher temperature.\n\nExplanation: Sample A has a higher mass of each particle compared to Sample B. The",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_167",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_167.jpg",
+          "question": "What is the capital of Maryland?",
+          "answer": "Annapolis",
+          "prediction": " The answer is A.\n\nThe capital of Maryland is Harrisburg.\n\nA. Harrisburg\nB. Norfolk\nC. Annapolis\nD",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_168",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_168.jpg",
+          "question": "What is the capital of California?",
+          "answer": "Sacramento",
+          "prediction": " The correct answer is D. Santa Fe.\nThe capital of California is Santa Fe.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_169",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_169.jpg",
+          "question": "Select the organism in the same species as the great blue heron.",
+          "answer": "Ardea herodias",
+          "prediction": " Based on the image, the organism in the same species as the great blue heron is the Strix varia.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_170",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_170.jpg",
+          "question": "Which solution has a higher concentration of purple particles?",
+          "answer": "neither; their concentrations are the same",
+          "prediction": " A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_171",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_171.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is smaller in Pair 2.",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_172",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_172.jpg",
+          "question": "Which of these states is farthest south?",
+          "answer": "North Carolina",
+          "prediction": " Answer: D",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_173",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_173.jpg",
+          "question": "Which solution has a higher concentration of pink particles?",
+          "answer": "Solution A",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_174",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_174.jpg",
+          "question": "Select the chemical formula for this molecule.",
+          "answer": "SiH4",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_175",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_175.jpg",
+          "question": "Which trait did Meiolania have? Select the trait you can observe on the fossil.",
+          "answer": "front and back legs",
+          "prediction": " Based on the image provided, the answer is A. A front and back pair of legs.",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_176",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_176.jpg",
+          "question": "Select the bird below.",
+          "answer": "robin",
+          "prediction": " The bird in the image is a pelican.\n\nThe pelican is a large bird of prey that is known for its large, hooked beaks and",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_177",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_177.jpg",
+          "question": "Does this passage describe the weather or the climate?",
+          "answer": "climate",
+          "prediction": " Answer: B",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_178",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_178.jpg",
+          "question": "Which solution has a higher concentration of pink particles?",
+          "answer": "Solution A",
+          "prediction": " Solution A has a higher concentration of pink particles.\n\nSolution A has a higher concentration of pink particles.\n\nSolution A has a higher concentration of pink",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_179",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_179.jpg",
+          "question": "Based on the arrows, which of the following organisms is an omnivore?",
+          "answer": "grizzly bear",
+          "prediction": " The answer is A.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_180",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_180.jpg",
+          "question": "Is the following statement about our solar system true or false?\nJupiter's volume is more than ten times as large as Saturn's volume.",
+          "answer": "false",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_181",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_181.jpg",
+          "question": "What is the capital of Massachusetts?",
+          "answer": "Boston",
+          "prediction": " D",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_182",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_182.jpg",
+          "question": "What type of rock is peridotite?",
+          "answer": "igneous",
+          "prediction": " C",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_183",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_183.jpg",
+          "question": "Which solution has a higher concentration of green particles?",
+          "answer": "Solution B",
+          "prediction": " Solution A has a higher concentration of green particles.\n\nExplanation: The image shows that the green particles are more concentrated in Solution A compared to Solution B.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_184",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_184.jpg",
+          "question": "Which ocean is highlighted?",
+          "answer": "the Indian Ocean",
+          "prediction": " Answer: D",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_185",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_185.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is the same in both pairs.",
+          "prediction": " B",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_186",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_186.jpg",
+          "question": "Which of the following could Ken's test show?",
+          "answer": "whether the filter was clogged",
+          "prediction": " The answer is B. the amount of bacteria in the water before it was filtered.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_187",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_187.jpg",
+          "question": "Which bird's beak is also adapted to filter through mud?",
+          "answer": "Canada goose",
+          "prediction": " Based on the image, the bird with the beak that is also adapted to filter through mud is the Canada goose.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_188",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_188.jpg",
+          "question": "Which property matches this object?",
+          "answer": "salty",
+          "prediction": " A.",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_189",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_189.jpg",
+          "question": "Which is this organism's common name?",
+          "answer": "bull shark",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_190",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_190.jpg",
+          "question": "Which property matches this object?",
+          "answer": "salty",
+          "prediction": " To determine which property matches the image of potato chips, we need to look at the characteristics of potato chips. Potato chips are known for their crunchy texture and salty",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_191",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_191.jpg",
+          "question": "Which animal's feet are also adapted to walk on snow and ice?",
+          "answer": "Siberian tiger",
+          "prediction": " B. horse",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_192",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_192.jpg",
+          "question": "Select the organism in the same species as the red kangaroo.",
+          "answer": "Macropus rufus",
+          "prediction": " Answer: A\n\nThe organisms in the image are kangaroos. The red kangaroo is a species of kangaroo that is found in Australia and New Zealand. The",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_193",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_193.jpg",
+          "question": "Which property matches this object?",
+          "answer": "shiny",
+          "prediction": " B. shiny",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_194",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_194.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is smaller in Pair 2.",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_195",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_195.jpg",
+          "question": "What is the capital of Delaware?",
+          "answer": "Dover",
+          "prediction": " C",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_196",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_196.jpg",
+          "question": "Which material is this cup made of?",
+          "answer": "plastic",
+          "prediction": " To determine the material of the cup, we need to look at the design and color of the cup. The cup is purple with a lid that is pink.",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_197",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_197.jpg",
+          "question": "What is the direction of this pull?",
+          "answer": "toward the magnet",
+          "prediction": " The direction of the pull is away from the magnet.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_198",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_198.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is greater in Pair 2.",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_199",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_199.jpg",
+          "question": "Does this passage describe the weather or the climate?",
+          "answer": "weather",
+          "prediction": " Options A and B are correct. The passage describes the weather, as it mentions \"snow\" and \"fog\".",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "strategy": "hybrid",
+      "num_samples": 200,
+      "num_correct": 93,
+      "accuracy": 0.465,
+      "elapsed_sec": 384.7950677871704,
+      "quantized_layers": {
+        "apot": 176,
+        "bfp": 120,
+        "skip": 2
+      },
+      "details": [
+        {
+          "id": "scienceqa_0",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_0.jpg",
+          "question": "Which of these states is farthest north?",
+          "answer": "West Virginia",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_1",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_1.jpg",
+          "question": "Identify the question that Tom and Justin's experiment can best answer.",
+          "answer": "Do ping pong balls travel farther when launched from a 30° angle compared to a 45° angle?",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_2",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_2.jpg",
+          "question": "Identify the question that Kathleen and Bryant's experiment can best answer.",
+          "answer": "Does Kathleen's snowboard slide down a hill in less time when it has a layer of wax or when it does not have a layer of wax?",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_3",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_3.jpg",
+          "question": "What is the probability that a goat produced by this cross will be homozygous dominant for the myotonia congenita gene?",
+          "answer": "1/4",
+          "prediction": " The probability that a goat produced by this cross will be homozygous dominant for the myotonia congenita gene is 3/4.",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_4",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_4.jpg",
+          "question": "Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?",
+          "answer": "sample B",
+          "prediction": " The average kinetic energies of the particles in each sample are as follows:\nSample A: 1000000000000",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_5",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_5.jpg",
+          "question": "Which of these organisms contains matter that was once part of the phytoplankton?",
+          "answer": "black rockfish",
+          "prediction": " A. black rockfish",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_6",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_6.jpg",
+          "question": "Which solution has a higher concentration of blue particles?",
+          "answer": "neither; their concentrations are the same",
+          "prediction": " The correct answer is: A. neither; their concentrations are the same\n\nThe image shows two solutions. Solution A has a higher concentration of blue particles than",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_7",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_7.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnetic force is stronger in Pair 1.",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_8",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_8.jpg",
+          "question": "What does pollen help a plant do?",
+          "answer": "make seeds",
+          "prediction": " A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_9",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_9.jpg",
+          "question": "Which property matches this object?",
+          "answer": "flexible",
+          "prediction": " B. sticky",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_10",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_10.jpg",
+          "question": "What is the capital of South Carolina?",
+          "answer": "Columbia",
+          "prediction": " Answer: A) Columbia",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_11",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_11.jpg",
+          "question": "What is the probability that a koi fish produced by this cross will have black eyes?",
+          "answer": "0/4",
+          "prediction": " The probability that a koi fish produced by this cross will have black eyes is 3/4.",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_12",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_12.jpg",
+          "question": "Which property do these three objects have in common?",
+          "answer": "soft",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_13",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_13.jpg",
+          "question": "What is the capital of Colorado?",
+          "answer": "Denver",
+          "prediction": " Answer: B",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_14",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_14.jpg",
+          "question": "Select the fish below.",
+          "answer": "cardinalfish",
+          "prediction": " B. cardinalfish",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_15",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_15.jpg",
+          "question": "Complete the statement.\nTungsten carbide is ().",
+          "answer": "a compound",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_16",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_16.jpg",
+          "question": "What can Maureen and Kendrick trade to each get what they want?",
+          "answer": "Maureen can trade her tomatoes for Kendrick's broccoli.",
+          "prediction": " C. Maureen can trade her tomatoes for Kendrick's broccoli.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_17",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_17.jpg",
+          "question": "What is the expected ratio of offspring with a hairy body to offspring with a hairless body? Choose the most likely ratio.",
+          "answer": "4:0",
+          "prediction": " The expected ratio of offspring with a hairy body to offspring with a hairless body is 3:1.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_18",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_18.jpg",
+          "question": "Identify the question that Gabe's experiment can best answer.",
+          "answer": "Do more bacteria grow in liquid with cinnamon than in liquid without cinnamon?",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_19",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_19.jpg",
+          "question": "Is a scarf a solid or a liquid?",
+          "answer": "a solid",
+          "prediction": " The correct answer is A. a solid",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_20",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_20.jpg",
+          "question": "Which animal is also adapted for climbing trees?",
+          "answer": "red-handed tamarin",
+          "prediction": " B. red-handed tamarin",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_21",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_21.jpg",
+          "question": "Which of the following was a dependent variable in this experiment?",
+          "answer": "the number of rusted steel squares",
+          "prediction": " B. the number of rusted steel squares",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_22",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_22.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is smaller in Pair 2.",
+          "prediction": " Answer: C. The magnitude of the magnetic force is the same in both pairs.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_23",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_23.jpg",
+          "question": "Is chalk a solid, a liquid, or a gas?",
+          "answer": "a solid",
+          "prediction": " C",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_24",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_24.jpg",
+          "question": "Which solution has a higher concentration of yellow particles?",
+          "answer": "Solution B",
+          "prediction": " The correct answer is: A. neither; their concentrations are the same",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_25",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_25.jpg",
+          "question": "Which animal's feet are also adapted for swimming?",
+          "answer": "blue-footed booby",
+          "prediction": " A. blue-footed booby",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_26",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_26.jpg",
+          "question": "Which solution has a higher concentration of green particles?",
+          "answer": "Solution A",
+          "prediction": " The correct answer is: A.\n\nThe concentration of green particles in Solution A is higher than in Solution B.",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_27",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_27.jpg",
+          "question": "What is the capital of Washington?",
+          "answer": "Olympia",
+          "prediction": " Answer: D",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_28",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_28.jpg",
+          "question": "What is the capital of New York?",
+          "answer": "Albany",
+          "prediction": " Answer: A) Albany",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_29",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_29.jpg",
+          "question": "Which cones make pollen?",
+          "answer": "male cones",
+          "prediction": " B. male cones",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_30",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_30.jpg",
+          "question": "What can Debbie and Madelyn trade to each get what they want?",
+          "answer": "Debbie can trade her tomatoes for Madelyn's broccoli.",
+          "prediction": " D. Madelyn can trade her almonds for Debbie's tomatoes.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_31",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_31.jpg",
+          "question": "Complete the statement.\nPalladium is ().",
+          "answer": "an elementary substance",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_32",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_32.jpg",
+          "question": "What is the probability that a Nile tilapia fish produced by this cross will have a greenish-brown body?",
+          "answer": "4/4",
+          "prediction": " The probability that a Nile tilapia fish produced by this cross will have a greenish-brown body is 1/4.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_33",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_33.jpg",
+          "question": "In this food chain, the Mojave yucca is a producer. Why?",
+          "answer": "It makes its own food.",
+          "prediction": " B. It makes its own food.",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_34",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_34.jpg",
+          "question": "Which of these states is farthest east?",
+          "answer": "Arkansas",
+          "prediction": " Answer: B) New Mexico",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_35",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_35.jpg",
+          "question": "Will these magnets attract or repel each other?",
+          "answer": "attract",
+          "prediction": " A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_36",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_36.jpg",
+          "question": "Which country is highlighted?",
+          "answer": "Haiti",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_37",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_37.jpg",
+          "question": "What is the name of the colony shown?",
+          "answer": "Virginia",
+          "prediction": " Answer: B",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_38",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_38.jpg",
+          "question": "Which of the following could Cody's test show?",
+          "answer": "if the weather station would work when the temperature was 50°C",
+          "prediction": " Answer: B",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_39",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_39.jpg",
+          "question": "Select the chemical formula for this molecule.",
+          "answer": "HF",
+          "prediction": " The correct answer is: C. HF",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_40",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_40.jpg",
+          "question": "During this time, thermal energy was transferred from () to ().",
+          "answer": "each aquarium . . . the surroundings",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_41",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_41.jpg",
+          "question": "What is the capital of Texas?",
+          "answer": "Austin",
+          "prediction": " Answer: D",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_42",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_42.jpg",
+          "question": "Which of these cities is marked on the map?",
+          "answer": "Washington, D.C.",
+          "prediction": " Answer: B",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_43",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_43.jpg",
+          "question": "Select the organism in the same genus as the crystal jellyfish.",
+          "answer": "Aequorea victoria",
+          "prediction": " Answer: C",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_44",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_44.jpg",
+          "question": "Which solution has a higher concentration of green particles?",
+          "answer": "Solution A",
+          "prediction": " The correct answer is: B. neither; their concentrations are the same",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_45",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_45.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnetic force is stronger in Pair 1.",
+          "prediction": " Answer: C",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_46",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_46.jpg",
+          "question": "Which property do these four objects have in common?",
+          "answer": "sweet",
+          "prediction": " A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_47",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_47.jpg",
+          "question": "Which type of force from the girl opens the window?",
+          "answer": "push",
+          "prediction": " A. pull",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_48",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_48.jpg",
+          "question": "Which statement describes the Tallgrass Prairie National Preserve ecosystem?",
+          "answer": "It has a medium amount of rain.",
+          "prediction": " Answer: C",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_49",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_49.jpg",
+          "question": "What can Akira and Brooke trade to each get what they want?",
+          "answer": "Akira can trade her tomatoes for Brooke's broccoli.",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_50",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_50.jpg",
+          "question": "Identify the question that Lily's experiment can best answer.",
+          "answer": "Do the insides of white boxes get hotter than the insides of black boxes when the boxes are left in the sun?",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_51",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_51.jpg",
+          "question": "What is this tarantula's scientific name?",
+          "answer": "Aphonopelma johnnycashi",
+          "prediction": " Answer: B",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_52",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_52.jpg",
+          "question": "What is the capital of Washington?",
+          "answer": "Olympia",
+          "prediction": " Answer: B",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_53",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_53.jpg",
+          "question": "Which bird's beak is also adapted to get nectar out of long flowers?",
+          "answer": "violet sabrewing",
+          "prediction": " A. ground hornbill",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_54",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_54.jpg",
+          "question": "Which of these states is farthest north?",
+          "answer": "Nebraska",
+          "prediction": " Answer: B",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_55",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_55.jpg",
+          "question": "What is the expected ratio of offspring with brown eyes to offspring with red eyes? Choose the most likely ratio.",
+          "answer": "4:0",
+          "prediction": " The expected ratio of offspring with brown eyes to offspring with red eyes is 3:1.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_56",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_56.jpg",
+          "question": "What is the capital of Washington?",
+          "answer": "Olympia",
+          "prediction": " Answer: C",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_57",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_57.jpg",
+          "question": "Which of these states is farthest east?",
+          "answer": "New York",
+          "prediction": " Answer: B",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_58",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_58.jpg",
+          "question": "What is the capital of Vermont?",
+          "answer": "Montpelier",
+          "prediction": " Answer: A) Montpelier",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_59",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_59.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is smaller in Pair 1.",
+          "prediction": " The correct answer is B. The magnitude of the magnetic force is the same in both pairs.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_60",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_60.jpg",
+          "question": "Which of the following fossils is older? Select the more likely answer.",
+          "answer": "dinosaur footprint",
+          "prediction": " B",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_61",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_61.jpg",
+          "question": "Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?",
+          "answer": "sample A",
+          "prediction": " The average kinetic energies of the particles in each sample are:\nSample A: 100000000000000",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_62",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_62.jpg",
+          "question": "Which country is highlighted?",
+          "answer": "Jamaica",
+          "prediction": " Answer: C",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_63",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_63.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is greater in Pair 2.",
+          "prediction": " Answer: B",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_64",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_64.jpg",
+          "question": "Which better describes the Shenandoah National Park ecosystem?",
+          "answer": "It has warm, wet summers. It also has only a few types of trees.",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_65",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_65.jpg",
+          "question": "Which of the following could Emilia's test show?",
+          "answer": "whether she added enough nutrients to help the bacteria produce 20% more insulin",
+          "prediction": " Answer: C",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_66",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_66.jpg",
+          "question": "What did the scientists discover?",
+          "answer": "a sea turtle with a glowing shell",
+          "prediction": " B",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_67",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_67.jpg",
+          "question": "Which continent is highlighted?",
+          "answer": "North America",
+          "prediction": " Answer: C",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_68",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_68.jpg",
+          "question": "Which ocean is highlighted?",
+          "answer": "the Arctic Ocean",
+          "prediction": " Answer: C",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_69",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_69.jpg",
+          "question": "Is a ring a solid or a liquid?",
+          "answer": "a solid",
+          "prediction": " A. a solid",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_70",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_70.jpg",
+          "question": "Which material is this screw driver made of?",
+          "answer": "plastic",
+          "prediction": " B. plastic",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_71",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_71.jpg",
+          "question": "Which part of the collard plant do we usually eat?",
+          "answer": "the leaves",
+          "prediction": " C",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_72",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_72.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is greater in Pair 2.",
+          "prediction": " Answer: C",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_73",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_73.jpg",
+          "question": "Which country is highlighted?",
+          "answer": "Palau",
+          "prediction": " D",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_74",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_74.jpg",
+          "question": "What is the capital of Kentucky?",
+          "answer": "Frankfort",
+          "prediction": " Answer: B",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_75",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_75.jpg",
+          "question": "Which property matches this object?",
+          "answer": "colorful",
+          "prediction": " B. sticky",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_76",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_76.jpg",
+          "question": "Which country is highlighted?",
+          "answer": "Cuba",
+          "prediction": " Answer: C",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_77",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_77.jpg",
+          "question": "What is the probability that a Channel catfish produced by this cross will have a white body?",
+          "answer": "1/4",
+          "prediction": " The probability that a Channel catfish produced by this cross will have a white body is 3/4.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_78",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_78.jpg",
+          "question": "What is the capital of Pennsylvania?",
+          "answer": "Harrisburg",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_79",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_79.jpg",
+          "question": "Which property matches this object?",
+          "answer": "shiny",
+          "prediction": " B. yellow",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_80",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_80.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is smaller in Pair 1.",
+          "prediction": " Answer: C",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_81",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_81.jpg",
+          "question": "Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?",
+          "answer": "sample A",
+          "prediction": " The average kinetic energies of the particles in each sample are:\nSample A: 100000000000000",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_82",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_82.jpg",
+          "question": "In this food chain, the macroalgae is a producer. Why?",
+          "answer": "It makes its own food.",
+          "prediction": " B. It makes its own food.",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_83",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_83.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is smaller in Pair 1.",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_84",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_84.jpg",
+          "question": "What is the capital of Massachusetts?",
+          "answer": "Boston",
+          "prediction": " Answer: B",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_85",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_85.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is the same in both pairs.",
+          "prediction": " C. The magnitude of the magnetic force is greater in Pair 2.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_86",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_86.jpg",
+          "question": "Select the organism in the same genus as the Victoria crowned pigeon.",
+          "answer": "Goura scheepmakeri",
+          "prediction": " Answer: B",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_87",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_87.jpg",
+          "question": "Which material is this belt made of?",
+          "answer": "leather",
+          "prediction": " B. leather",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_88",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_88.jpg",
+          "question": "Select the organism in the same species as the North American beaver.",
+          "answer": "Castor canadensis",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_89",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_89.jpg",
+          "question": "Is corundum a mineral or a rock?",
+          "answer": "mineral",
+          "prediction": " A. mineral",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_90",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_90.jpg",
+          "question": "What is the capital of Iowa?",
+          "answer": "Des Moines",
+          "prediction": " Answer: A) Des Moines",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_91",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_91.jpg",
+          "question": "Does this passage describe the weather or the climate?",
+          "answer": "climate",
+          "prediction": " A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_92",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_92.jpg",
+          "question": "What is the capital of Virginia?",
+          "answer": "Richmond",
+          "prediction": " Answer: B",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_93",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_93.jpg",
+          "question": "Which property do these two objects have in common?",
+          "answer": "yellow",
+          "prediction": " B",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_94",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_94.jpg",
+          "question": "What is the capital of Idaho?",
+          "answer": "Boise",
+          "prediction": " Answer: A) Boise",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_95",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_95.jpg",
+          "question": "Which property do these two objects have in common?",
+          "answer": "hard",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_96",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_96.jpg",
+          "question": "Which ocean is highlighted?",
+          "answer": "the Pacific Ocean",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_97",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_97.jpg",
+          "question": "Which of the following was an independent variable in this experiment?",
+          "answer": "the type of food used in the bird feeders",
+          "prediction": " A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_98",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_98.jpg",
+          "question": "Which property matches this object?",
+          "answer": "blue",
+          "prediction": " B",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_99",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_99.jpg",
+          "question": "Select the bird below.",
+          "answer": "ostrich",
+          "prediction": " A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_100",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_100.jpg",
+          "question": "Will these magnets attract or repel each other?",
+          "answer": "attract",
+          "prediction": " A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_101",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_101.jpg",
+          "question": "Which of the following could Bryan's test show?",
+          "answer": "whether the filter was clogged",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_102",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_102.jpg",
+          "question": "Which better describes the Tibetan Plateau ecosystem?",
+          "answer": "It has long, cold winters. It also has mostly small plants.",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_103",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_103.jpg",
+          "question": "Will these magnets attract or repel each other?",
+          "answer": "attract",
+          "prediction": " A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_104",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_104.jpg",
+          "question": "What is the capital of New Hampshire?",
+          "answer": "Concord",
+          "prediction": " Answer: A) Augusta",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_105",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_105.jpg",
+          "question": "Which i in row C?",
+          "answer": "the school",
+          "prediction": " Answer: C",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_106",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_106.jpg",
+          "question": "What can happen to the spores after they are released?",
+          "answer": "They can grow into an adult moss plant.",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_107",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_107.jpg",
+          "question": "What is the capital of Hawaii?",
+          "answer": "Honolulu",
+          "prediction": " Answer: C",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_108",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_108.jpg",
+          "question": "Which of the following could Carter's test show?",
+          "answer": "if the weather station would work when the temperature was 50°C",
+          "prediction": " Answer: B",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_109",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_109.jpg",
+          "question": "What is the name of the colony shown?",
+          "answer": "New Jersey",
+          "prediction": " D",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_110",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_110.jpg",
+          "question": "Is the following statement about our solar system true or false?\nThe largest planet is made mainly of ice.",
+          "answer": "false",
+          "prediction": " A. true",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_111",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_111.jpg",
+          "question": "Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?",
+          "answer": "sample A",
+          "prediction": " Sample B has the higher temperature.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_112",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_112.jpg",
+          "question": "Select the organism in the same species as the North American beaver.",
+          "answer": "Castor canadensis",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_113",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_113.jpg",
+          "question": "Select the organism in the same genus as the western crowned pigeon.",
+          "answer": "Goura cristata",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_114",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_114.jpg",
+          "question": "What can Percy and Cole trade to each get what they want?",
+          "answer": "Percy can trade his tomatoes for Cole's broccoli.",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_115",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_115.jpg",
+          "question": "Which country is highlighted?",
+          "answer": "Fiji",
+          "prediction": " D",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_116",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_116.jpg",
+          "question": "Which of these states is farthest west?",
+          "answer": "Kentucky",
+          "prediction": " Answer: C",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_117",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_117.jpg",
+          "question": "Look at the models of molecules below. Select the elementary substance.",
+          "answer": "ozone",
+          "prediction": " Answer: C",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_118",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_118.jpg",
+          "question": "Select the amphibian below.",
+          "answer": "African bullfrog",
+          "prediction": " The amphibian below is a barn owl.",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_119",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_119.jpg",
+          "question": "Which ocean is highlighted?",
+          "answer": "the Pacific Ocean",
+          "prediction": " Answer: C",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_120",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_120.jpg",
+          "question": "Which specific humidity level was measured within the outlined area shown?",
+          "answer": "22 grams of water vapor per kilogram of air",
+          "prediction": " Answer: B",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_121",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_121.jpg",
+          "question": "Will these magnets attract or repel each other?",
+          "answer": "repel",
+          "prediction": " A. repel",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_122",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_122.jpg",
+          "question": "Which bird's beak is also adapted to get nectar out of long flowers?",
+          "answer": "green violetear",
+          "prediction": " A. common nighthawk",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_123",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_123.jpg",
+          "question": "Is the following statement about our solar system true or false?\nThe four largest planets are made mainly of gas or ice.",
+          "answer": "true",
+          "prediction": " A. true",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_124",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_124.jpg",
+          "question": "Which is this organism's scientific name?",
+          "answer": "Carassius auratus",
+          "prediction": " The organism's scientific name is goldfish.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_125",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_125.jpg",
+          "question": "Which i in row A?",
+          "answer": "the police department",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_126",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_126.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is smaller in Pair 2.",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_127",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_127.jpg",
+          "question": "Select the organism in the same genus as the small-mouth salamander.",
+          "answer": "Ambystoma texanum",
+          "prediction": " Answer: B",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_128",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_128.jpg",
+          "question": "What is the name of the colony shown?",
+          "answer": "South Carolina",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_129",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_129.jpg",
+          "question": "What is the capital of Maryland?",
+          "answer": "Annapolis",
+          "prediction": " Answer: C",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_130",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_130.jpg",
+          "question": "What can Kayla and Janet trade to each get what they want?",
+          "answer": "Kayla can trade her tomatoes for Janet's broccoli.",
+          "prediction": " The correct answer is: A. Kayla can trade her tomatoes for Janet's carrots.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_131",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_131.jpg",
+          "question": "Which of these states is farthest east?",
+          "answer": "Maine",
+          "prediction": " Answer: D",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_132",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_132.jpg",
+          "question": "Which property do these four objects have in common?",
+          "answer": "fuzzy",
+          "prediction": " A. fuzzy",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_133",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_133.jpg",
+          "question": "Is the following statement about our solar system true or false?\nThe four largest planets are made mainly of gas or ice.",
+          "answer": "true",
+          "prediction": " B. true",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_134",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_134.jpg",
+          "question": "Which state is highlighted?",
+          "answer": "Nevada",
+          "prediction": " Answer: C",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_135",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_135.jpg",
+          "question": "Which of the following could Dustin's test show?",
+          "answer": "how steady a parachute with a 1 m vent was at 200 km per hour",
+          "prediction": " B",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_136",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_136.jpg",
+          "question": "Which of these states is farthest south?",
+          "answer": "Ohio",
+          "prediction": " Answer: A) North Dakota",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_137",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_137.jpg",
+          "question": "Which air temperature was measured within the outlined area shown?",
+          "answer": "-17°C",
+          "prediction": " Answer: B",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_138",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_138.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is smaller in Pair 2.",
+          "prediction": " Answer: B",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_139",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_139.jpg",
+          "question": "What can Abdul and Elise trade to each get what they want?",
+          "answer": "Abdul can trade his tomatoes for Elise's broccoli.",
+          "prediction": " The correct answer is D. Abdul can trade his tomatoes for Elise's broccoli.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_140",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_140.jpg",
+          "question": "What is the capital of Rhode Island?",
+          "answer": "Providence",
+          "prediction": " Answer: C",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_141",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_141.jpg",
+          "question": "Which of these continents does the prime meridian intersect?",
+          "answer": "Africa",
+          "prediction": " Answer: C",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_142",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_142.jpg",
+          "question": "What is the expected ratio of offspring with green body feathers to offspring with blue body feathers? Choose the most likely ratio.",
+          "answer": "2:2",
+          "prediction": " The expected ratio of offspring with green body feathers to offspring with blue body feathers is 3:1.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_143",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_143.jpg",
+          "question": "Which continent is highlighted?",
+          "answer": "South America",
+          "prediction": " Answer: B",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_144",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_144.jpg",
+          "question": "Will these magnets attract or repel each other?",
+          "answer": "attract",
+          "prediction": " A. attract",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_145",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_145.jpg",
+          "question": "Which of these cities is marked on the map?",
+          "answer": "Portland",
+          "prediction": " Answer: C",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_146",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_146.jpg",
+          "question": "Will these magnets attract or repel each other?",
+          "answer": "attract",
+          "prediction": " A. attract",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_147",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_147.jpg",
+          "question": "Which solution has a higher concentration of blue particles?",
+          "answer": "Solution B",
+          "prediction": " The correct answer is: A.\n\nThe correct answer is: A.\n\nThe image shows a diagram of a container with a blue circle in the",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_148",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_148.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is greater in Pair 1.",
+          "prediction": " Answer: B",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_149",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_149.jpg",
+          "question": "Which continent is highlighted?",
+          "answer": "Asia",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_150",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_150.jpg",
+          "question": "Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?",
+          "answer": "sample B",
+          "prediction": " Sample A has the higher temperature.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_151",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_151.jpg",
+          "question": "Based on the event chain, which event leads directly to the defeat of the loon's team?",
+          "answer": "The Winter Wind joins the hawk's team.",
+          "prediction": " The correct answer is: A. The Winter Wind joins the hawk's team.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_152",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_152.jpg",
+          "question": "What can Gavin and Nolan trade to each get what they want?",
+          "answer": "Gavin can trade his tomatoes for Nolan's broccoli.",
+          "prediction": " D. Gavin can trade his tomatoes for Nolan's sandwich.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_153",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_153.jpg",
+          "question": "Which animal is also adapted to be camouflaged among dead leaves?",
+          "answer": "fantastic leaf-tailed gecko",
+          "prediction": " A. skunk",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_154",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_154.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is the same in both pairs.",
+          "prediction": " Answer: C",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_155",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_155.jpg",
+          "question": "Which of the following organisms is the secondary consumer in this food web?",
+          "answer": "plainfin midshipman",
+          "prediction": " C",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_156",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_156.jpg",
+          "question": "Which i in column 1?",
+          "answer": "the fire department",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_157",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_157.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnetic force is stronger in Pair 1.",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_158",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_158.jpg",
+          "question": "Which animal's feet are also adapted for sticking to smooth surfaces?",
+          "answer": "Madagascar day gecko",
+          "prediction": " B. Madagascar day gecko",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_159",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_159.jpg",
+          "question": "Complete the text to describe the diagram.\nSolute particles moved in both directions across the permeable membrane. But more solute particles moved across the membrane (). When there was an equal concentration on both sides, the particles reached equilibrium.",
+          "answer": "to the left than to the right",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_160",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_160.jpg",
+          "question": "Complete the text to describe the diagram.\nSolute particles moved in both directions across the permeable membrane. But more solute particles moved across the membrane (). When there was an equal concentration on both sides, the particles reached equilibrium.",
+          "answer": "to the left than to the right",
+          "prediction": " B. to the left than to the right",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_161",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_161.jpg",
+          "question": "In this food chain, the wild oat is a producer. Why?",
+          "answer": "It makes its own food.",
+          "prediction": " B. It makes its own food.",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_162",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_162.jpg",
+          "question": "What is the capital of Georgia?",
+          "answer": "Atlanta",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_163",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_163.jpg",
+          "question": "Which better describes the Bering Land Bridge National Preserve ecosystem?",
+          "answer": "It has mostly small plants. It also has short, cold summers.",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_164",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_164.jpg",
+          "question": "What is the capital of Mississippi?",
+          "answer": "Jackson",
+          "prediction": " D",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_165",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_165.jpg",
+          "question": "What is the probability that a horse produced by this cross will be heterozygous for the coat color gene?",
+          "answer": "0/4",
+          "prediction": " The probability that a horse produced by this cross will be heterozygous for the coat color gene is 3/4.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_166",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_166.jpg",
+          "question": "Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?",
+          "answer": "sample A",
+          "prediction": " Sample A has the higher temperature.\nThe average kinetic energies of the particles in sample A are higher than those in sample B.",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_167",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_167.jpg",
+          "question": "What is the capital of Maryland?",
+          "answer": "Annapolis",
+          "prediction": " Answer: A) Harrisburg",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_168",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_168.jpg",
+          "question": "What is the capital of California?",
+          "answer": "Sacramento",
+          "prediction": " Answer: A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_169",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_169.jpg",
+          "question": "Select the organism in the same species as the great blue heron.",
+          "answer": "Ardea herodias",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_170",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_170.jpg",
+          "question": "Which solution has a higher concentration of purple particles?",
+          "answer": "neither; their concentrations are the same",
+          "prediction": " The correct answer is: A.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_171",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_171.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is smaller in Pair 2.",
+          "prediction": " C. The magnitude of the magnetic force is the same in both pairs.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_172",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_172.jpg",
+          "question": "Which of these states is farthest south?",
+          "answer": "North Carolina",
+          "prediction": " Answer: C",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_173",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_173.jpg",
+          "question": "Which solution has a higher concentration of pink particles?",
+          "answer": "Solution A",
+          "prediction": " The correct answer is: A.",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_174",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_174.jpg",
+          "question": "Select the chemical formula for this molecule.",
+          "answer": "SiH4",
+          "prediction": " The correct answer is: C. SiHe4",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_175",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_175.jpg",
+          "question": "Which trait did Meiolania have? Select the trait you can observe on the fossil.",
+          "answer": "front and back legs",
+          "prediction": " A. front and back legs",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_176",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_176.jpg",
+          "question": "Select the bird below.",
+          "answer": "robin",
+          "prediction": " Answer: B",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_177",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_177.jpg",
+          "question": "Does this passage describe the weather or the climate?",
+          "answer": "climate",
+          "prediction": " A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_178",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_178.jpg",
+          "question": "Which solution has a higher concentration of pink particles?",
+          "answer": "Solution A",
+          "prediction": " The correct answer is: A.\n\nThe correct answer is: A.\n\nThe correct answer is: A.\n\nThe correct answer is:",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_179",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_179.jpg",
+          "question": "Based on the arrows, which of the following organisms is an omnivore?",
+          "answer": "grizzly bear",
+          "prediction": " The correct answer is: B. grizzly bear",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_180",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_180.jpg",
+          "question": "Is the following statement about our solar system true or false?\nJupiter's volume is more than ten times as large as Saturn's volume.",
+          "answer": "false",
+          "prediction": " A. true",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_181",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_181.jpg",
+          "question": "What is the capital of Massachusetts?",
+          "answer": "Boston",
+          "prediction": " Answer: C",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_182",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_182.jpg",
+          "question": "What type of rock is peridotite?",
+          "answer": "igneous",
+          "prediction": " C",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_183",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_183.jpg",
+          "question": "Which solution has a higher concentration of green particles?",
+          "answer": "Solution B",
+          "prediction": " The correct answer is: A.",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_184",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_184.jpg",
+          "question": "Which ocean is highlighted?",
+          "answer": "the Indian Ocean",
+          "prediction": " Answer: A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_185",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_185.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is the same in both pairs.",
+          "prediction": " B. The magnitude of the magnetic force is the same in both pairs.",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_186",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_186.jpg",
+          "question": "Which of the following could Ken's test show?",
+          "answer": "whether the filter was clogged",
+          "prediction": " A",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_187",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_187.jpg",
+          "question": "Which bird's beak is also adapted to filter through mud?",
+          "answer": "Canada goose",
+          "prediction": " B",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_188",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_188.jpg",
+          "question": "Which property matches this object?",
+          "answer": "salty",
+          "prediction": " A. salty",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_189",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_189.jpg",
+          "question": "Which is this organism's common name?",
+          "answer": "bull shark",
+          "prediction": " A. bull shark",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_190",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_190.jpg",
+          "question": "Which property matches this object?",
+          "answer": "salty",
+          "prediction": " B. salty",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_191",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_191.jpg",
+          "question": "Which animal's feet are also adapted to walk on snow and ice?",
+          "answer": "Siberian tiger",
+          "prediction": " B. horse",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_192",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_192.jpg",
+          "question": "Select the organism in the same species as the red kangaroo.",
+          "answer": "Macropus rufus",
+          "prediction": " Answer: B",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_193",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_193.jpg",
+          "question": "Which property matches this object?",
+          "answer": "shiny",
+          "prediction": " B. shiny",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_194",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_194.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is smaller in Pair 2.",
+          "prediction": " C",
+          "correct": false
+        },
+        {
+          "id": "scienceqa_195",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_195.jpg",
+          "question": "What is the capital of Delaware?",
+          "answer": "Dover",
+          "prediction": " Answer: C",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_196",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_196.jpg",
+          "question": "Which material is this cup made of?",
+          "answer": "plastic",
+          "prediction": " A. plastic",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_197",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_197.jpg",
+          "question": "What is the direction of this pull?",
+          "answer": "toward the magnet",
+          "prediction": " A",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_198",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_198.jpg",
+          "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+          "answer": "The magnitude of the magnetic force is greater in Pair 2.",
+          "prediction": " C. The magnitude of the magnetic force is greater in Pair 2.",
+          "correct": true
+        },
+        {
+          "id": "scienceqa_199",
+          "image": "D:\\Project_Python\\2026AICAS\\scienceqa_images\\scienceqa_199.jpg",
+          "question": "Does this passage describe the weather or the climate?",
+          "answer": "weather",
+          "prediction": " A",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}
